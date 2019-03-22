@@ -1,8 +1,17 @@
-/* @import url('https://fonts.googleapis.com/css?family=Lato'); */
 
 .main-content{
-    padding-top: 50px;
+    padding-top: 160px;
     background-color: transparent!important;
+    position: relative;
+  }
+
+.logo-main {
+  padding-bottom: 24px;
+  float:left;
+}
+  .logo__icon {
+    height: 2rem;
+    margin-left: 1rem;
   }
 
   body{
@@ -18,19 +27,29 @@
     padding-bottom: 0.5em;
   }
 
-  .header{
+  .header {
     padding-bottom: 3px;
   }
 
   #title{
     display: inline-block;
-    font-size: 2.6em;
+    font-size: 2.8em;
     font-family: 'Lato', sans-serif;
     text-align: center;
     padding-bottom: 0.5em;
-    color:#6d6c6c;
+    /* color:#6d6c6c; */
+    color:#a1a1a1;
+    margin-left:9.7em;
+    text-transform: uppercase;
+    /* line-height: 2px; */
+    letter-spacing: 0.09em;
   }
-
+  #sub-title {
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color:#adadad;
+  }
   .pixabayLogo{
     width: 110px;
   }
@@ -45,4 +64,34 @@
     display: block;
     padding-bottom: 8px;
     color:#858585;
+  }
+
+  @media (min-width: 0) and (max-width: 549px) {
+    #title{
+      display: inline-block;
+      margin-left:2.2em;
+      font-size:2.1em;
+
+    }
+    .pixabayLogo{
+      width: 70px;
+    }
+
+    .logo{
+      padding-bottom: 10px;
+      position: absolute;
+      right:0;
+      margin-top:-175px;
+    }
+
+    #attribution{
+    font-size:0.65em;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1024px){
+    #title{
+      display: inline-block;
+      margin-left:7.8em;
+    }
   }
