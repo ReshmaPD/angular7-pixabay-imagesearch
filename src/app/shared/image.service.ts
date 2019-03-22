@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
-// import { map } from 'rxjs/operators';
-// import { Http, Headers } from '@angular/http';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -13,12 +11,15 @@ export class ImageService {
   private URL: string = this.API_URL + this.API_KEY + '&q=';
   private perPage = '&per_page=20';
   private minHeight = '&min_height=200';
+  private URL_NEW: string = this.API_URL + this.API_KEY + '&q=landscape';
 
   constructor(private http: HttpClient) { }
 
   getImage(query: string) {
     return this.http.get(this.URL + query + this.perPage + this.minHeight);
-    // .pipe(map((response: any) => response.json()));
   }
 
+  getUser() {
+    return this.http.get(this.URL_NEW + this.perPage + this.minHeight);
+  }
 }
