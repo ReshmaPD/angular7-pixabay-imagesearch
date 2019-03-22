@@ -15,7 +15,6 @@
 </div>
 
 
-  <!-- <h2 *ngIf="imagesFound">Results</h2> -->
   <div class="row">
     <div *ngFor="let image of images" class="column container images" (deferLoad)="image.show = true">
         <ng-container *ngIf="image.show">
@@ -24,7 +23,6 @@
               <div class="middle">
                   <mat-card>
                   <mat-card-content>
-                          <!-- <a href="{{ image.pageURL }}" target="_bank" rel="noopener"> -->
                              <a href="" routerLink="/user-info" routerLinkActive="active">
                             <mat-card-header>
                               <div class="avatar" mat-card-avatar [ngStyle]="{'background-image':'url('+ image.userImageURL +')', 'background-size':'40px 40px'}"></div>
@@ -38,10 +36,6 @@
                               <span class="likes"><mat-icon>thumb_up_alt</mat-icon>{{ image.likes }}</span>
                             </a>
                           </mat-card-title-group>
-                      <!-- <mat-card-subtitle><mat-icon>loyalty</mat-icon>{{ image.tags }}</mat-card-subtitle>
-                      <mat-card-subtitle><mat-icon>comment</mat-icon> {{ image.comments }}</mat-card-subtitle>
-                      <mat-card-subtitle><mat-icon>thumb_up_alt</mat-icon>{{ image.likes }}</mat-card-subtitle> -->
-
           </mat-card-content>
           </mat-card>
         </div>
