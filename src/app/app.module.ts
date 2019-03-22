@@ -18,7 +18,6 @@ import { UserInfoComponent } from './user-info/user-info.component';
 
 
 const appRoutes: Routes = [
-     // basic routes
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: 'home', component: ImageListComponent },
     { path: 'user-info', component: UserInfoComponent },
@@ -36,10 +35,7 @@ const appRoutes: Routes = [
     HttpClientModule,
     BrowserAnimationsModule,
     MaterialModule,
-    RouterModule.forRoot(
-      appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
-    )
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [ImageService],
   bootstrap: [AppComponent]
