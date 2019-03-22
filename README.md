@@ -8,8 +8,8 @@ This project was bootstrapped with [Angular CLI](https://cli.angular.io/).
 - [Application dependencies](#application-dependencies)
 - [Getting Started](#getting-started)
 - [How to Run the Application](#how-to-run-the-application)
-- [Resources and Assets](#Resources-and-Assets)
-- [Legal Discliamer](#Legal-Discliamer)
+- [Resources and Assets](#resources-and-assets)
+- [Legal Discliamer](#legal-discliamer)
 
 ## Visit the live demo
 
@@ -48,6 +48,12 @@ An Angular based image search web apllication using pixabay API
 
 - [Pixa API](https://pixabay.com/api/docs/)
 - [Pixabay Images](https://pixabay.com)
+- [Favicon](https://gauger.io/fonticon/)
+- [Lazy load Images NPM](https://github.com/TradeMe/ng-defer-load)
+- [Lazy load Images guide](https://codinglatte.com/posts/angular/lazy-loading-images-angular-6/)
+- [Anuglar Material](https://material.angular.io/)
+- [Anuglar Routing guide](https://angular.io/guide/router)
+- [Angular HTTP guide](https://blog.angular-university.io/angular-http/)
 
 ## Legal Discliamer
 
