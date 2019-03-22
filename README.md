@@ -46,7 +46,7 @@ An Angular based image search web apllication using pixabay API
 
 ## Resources and Assets
 
-- [Pixa API](https://pixabay.com/api/docs/)
+- [Pixabay API](https://pixabay.com/api/docs/)
 - [Pixabay Images](https://pixabay.com)
 - [Favicon](https://gauger.io/fonticon/)
 - [Lazy load Images NPM](https://github.com/TradeMe/ng-defer-load)
