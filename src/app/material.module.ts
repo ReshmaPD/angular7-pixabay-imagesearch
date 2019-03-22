@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 
 import {
-  MatGridListModule,
   MatIconModule,
   MatCardModule,
   MatFormFieldModule,
@@ -11,7 +10,6 @@ import {
 
 @NgModule({
   imports: [
-    MatGridListModule,
     MatIconModule,
     MatCardModule,
     MatFormFieldModule,
@@ -19,7 +17,6 @@ import {
     MatProgressBarModule
   ],
   exports: [
-    MatGridListModule,
     MatIconModule,
     MatCardModule,
     MatFormFieldModule,
