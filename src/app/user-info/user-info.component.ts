@@ -24,7 +24,6 @@ export class UserInfoComponent implements OnInit {
   constructor(private imageService: ImageService) { }
 
   searchImages() {
-    // this.searching = true;
       return this.imageService.getUser().subscribe(
         data => this.handleSuccess(data),
         error => this.handleError(error),
