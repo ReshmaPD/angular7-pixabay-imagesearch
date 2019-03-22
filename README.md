@@ -13,7 +13,12 @@ This project was bootstrapped with [Angular CLI](https://cli.angular.io/).
 
 ## Visit the live demo
 
-**[Live website](https://reshma-dhuldhule-angular-pixabay-imagesearch.netlify.com)**
+**[View Live website](https://reshma-dhuldhule-angular-pixabay-imagesearch.netlify.com)**
+
+
+![fist-view-land](https://user-images.githubusercontent.com/43452215/54820202-597a5080-4cc4-11e9-9878-c4d5771d750f.PNG)
+
+![first-view-search1](https://user-images.githubusercontent.com/43452215/54820154-38b1fb00-4cc4-11e9-8595-237555810578.png)
 
 ## About the Application
 
