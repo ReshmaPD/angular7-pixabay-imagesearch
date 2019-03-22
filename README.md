@@ -1,27 +1,49 @@
-# AngularUnsplashImageSearch
+This project was bootstrapped with [Angular CLI](https://cli.angular.io/).
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.5.
+# Angular 7 Pixabay API for Image Search
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [About the Application](#about-the-application)
+- [Application dependencies](#application-dependencies)
+- [Getting Started](#getting-started)
+- [How to Run the Application](#how-to-run-the-application)
+- [Resources and Assets](#Resources-and-Assets)
+- [Legal Discliamer](#Legal-Discliamer)
 
-## Code scaffolding
+## Visit the live demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**[Live website](https://reshma-dhuldhule-angular-pixabay-imagesearch.netlify.com)**
 
-## Build
+## About the Application
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+An Angular based image search web apllication using pixabay API
 
-## Running unit tests
+## Application-dependencies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+            This application Requires Active Internet Connection to Run
 
-## Running end-to-end tests
+## Getting Started
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- To run the project you will need **Node.js** installed on your machine, which comes with **npm** , a node package manager.
+- Visit the official page to download it and read more about it [Node.js](https://nodejs.org/it/)
 
-## Further help
+## How to Run the Application
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1.  Download the zip folder and unzip it.
+2.  _Open_ the main folder
+3.  Do any of following **two** steps to get this app running
+    i. In this folder open the **terminal** , cd to current folder and type `npm install` to install dependencies.
+    ii.Then, type `npm start` into the terminal after the installation is complete.
+4.  A new window will be opened visting `http://localhost:4200` in your default browser.
+5.  With your server running, You can also visit the site: `http://localhost:4200` in your preferred browser.
+6.  To disconnect simply close your terminal.
+
+## Resources and Assets
+
+- [Pixa API](https://pixabay.com/api/docs/)
+- [Pixabay Images](https://pixabay.com)
+
+## Legal Discliamer
+
+**This project is made for development purposes only.All Trademarks referred to are the property of their respective owners.This site is powered by PixaBay API all assets and images belong to Pixabay.com**
