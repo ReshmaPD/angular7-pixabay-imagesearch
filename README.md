@@ -37,12 +37,15 @@ An Angular based image search web apllication using pixabay API
 
 1.  Download the zip folder and unzip it.
 2.  _Open_ the main folder
-3.  Do any of following **two** steps to get this app running
-    i. In this folder open the **terminal** , cd to current folder and type `npm install` to install dependencies.
+3.  Locate the **environments** directory in the **src** directory.
+4.  In that, open the **environment.ts** file and add your **Pixabay API key** in the following line  
+     `PIXABAY_API_KEY: 'YOUR_CLIENT_API_KEY_HERE',` (replace `YOUR_CLIENT_API_KEY_HERE` with your api key and save the file.)
+5.  After the above steps, Do the following **two** steps to get this app running
+    i. In this folder open the **terminal** , cd to main folder and type `npm install` to install dependencies.
     ii.Then, type `npm start` into the terminal after the installation is complete.
-4.  A new window will be opened visting `http://localhost:4200` in your default browser.
-5.  With your server running, You can also visit the site: `http://localhost:4200` in your preferred browser.
-6.  To disconnect simply close your terminal.
+6.  A new window will be opened visting `http://localhost:4200` in your default browser.
+7.  With your server running, You can also visit the site: `http://localhost:4200` in your preferred browser.
+8.  To disconnect simply close your terminal or press `ctrl` + `c` in your terminal.
 
 ## Resources and Assets
 
