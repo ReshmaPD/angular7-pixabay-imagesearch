@@ -18,10 +18,10 @@ import { UserInfoComponent } from './user-info/user-info.component';
 
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', component: ImageListComponent },
+    { path: '', component: ImageListComponent },
     { path: 'user-info', component: UserInfoComponent },
 ];
+
 @NgModule({
   declarations: [
     AppComponent,
